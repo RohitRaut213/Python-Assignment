@@ -8,8 +8,8 @@ e.grid(row=0,column=0)
 
 def display():
     s=e.get()   
-    wb.open(f"https://www.flipkart.com/search?q={s}") 
-    print("Navigating to FlipKart the Search: ",(f"https://www.flipkart.com/search?q={s}"))
+    wb.open(f"https://www.twitch.tv/search?q={s}") 
+    print("Navigating to twitch the Search: ",(f"https://www.twitch.tv/search?q={s}"))
 
 b1=tk.Button(obj,text="Search",font=("Times New Roman",25),command=display)
 b1.grid(row=1,column=0)
